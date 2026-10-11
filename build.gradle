@@ -1,0 +1,72 @@
+plugins {
+    id 'fabric-loom' version "${loom_version}"
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+repositories {
+    // Loom 已自动注入 Minecraft / Fabric 所需仓库，此处仅供将来依赖其它模组时使用
+}
+
+loom {
+    splitEnvironmentSourceSets()
+
+    mods {
+        // 必须与 fabric.mod.json 的 id 一致
+        "bingzhengmod" {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+    }
+}
+
+// 开发期冒烟测试：`gradlew runClient -PbzSmoketest=25` 时，客户端到主菜单 25 秒后自动退出。
+// 用 doFirst 追加，是因为 Loom 的 run 任务在配置期之后才最终确定 jvmArgs，
+// 在 `loom.runs.client` 里写 vmArg 实测不会生效（已踩坑，见 PROGRESS.md）。
+// 不传 -PbzSmoketest 时此处完全不加任何参数，对正常游玩零影响。
+tasks.configureEach { t ->
+    if (t.name == "runClient" && project.hasProperty("bzSmoketest")) {
+        t.doFirst {
+            t.jvmArgs("-Dbingzhengmod.smoketest.seconds=" + project.getProperty("bzSmoketest").toString())
+        }
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+}
+
+processResources {
+    inputs.property "version", project.version
+
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+
+// 目标 Java 17：Minecraft 1.20.1 的运行时基线，保证产物能在 PCL2 的 Java 17 上加载
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 17
+    it.options.encoding = "UTF-8"
+}
+
+java {
+    withSourcesJar()
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+jar {
+    from("LICENSE") {
+        rename { "${it}_${project.base.archivesName.get()}" }
+    }
+}

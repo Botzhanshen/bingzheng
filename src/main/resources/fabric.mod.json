@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "bingzhengmod",
+  "version": "${version}",
+  "name": "病证",
+  "description": "以中医理法贯穿生存全程的 Minecraft 模组。核心包《病证》为全部 23 个拓展的基座。",
+  "authors": [
+    "bingzhengmod dev"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bingzheng.BingzhengMod"
+    ],
+    "client": [
+      "com.bingzheng.client.BingzhengModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {}
+}

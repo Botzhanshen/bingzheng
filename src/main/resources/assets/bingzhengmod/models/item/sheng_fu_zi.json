@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bingzhengmod:item/sheng_fu_zi"
+  }
+}

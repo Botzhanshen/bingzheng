@@ -1,0 +1,2594 @@
+{
+  "schema": "bingzhengmod:herbs_temp/1",
+  "_comment": "临时占位数据：从《病证》v1.04 附录二的全部方剂反向抽取，并合并用户裁定的垂直切片药材清单。",
+  "_warning": "未经中医专业校验。拼音 id 由 pinyin-pro 生成（多音字可能不准）；生/制基名关系为启发式推断；同一药材的不同写法（如 附子 / 生附子）尚未合并。完整 62 味官方清单待人工补全。",
+  "_generatedFrom": "《病证》MC_模组_v1.04.docx（附录二 方剂原文）+ 用户垂直切片清单",
+  "provisional": true,
+  "stats": {
+    "formula_lines": 109,
+    "total_entries": 320,
+    "raw": 285,
+    "processed": 35,
+    "issues": 3,
+    "duplicate_ids": 0
+  },
+  "issues": [
+    "炮穿山甲 (炮制品但没有 base)",
+    "酒萸肉 (炮制品但没有 base)",
+    "飞金 (炮制品但没有 base)"
+  ],
+  "slice_herbs": [
+    "桂枝",
+    "芍药",
+    "生姜",
+    "大枣",
+    "甘草",
+    "蜂蜜",
+    "生附子",
+    "炙甘草",
+    "制附子"
+  ],
+  "herbs": [
+    {
+      "id": "bingzhengmod:gan_cao",
+      "name": "甘草",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 34
+    },
+    {
+      "id": "bingzhengmod:zhi_gan_cao",
+      "name": "炙甘草",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:gan_cao",
+      "process": "炙",
+      "formula_count": 19
+    },
+    {
+      "id": "bingzhengmod:sheng_jiang",
+      "name": "生姜",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 15
+    },
+    {
+      "id": "bingzhengmod:da_zao",
+      "name": "大枣",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 13
+    },
+    {
+      "id": "bingzhengmod:shao_yao",
+      "name": "芍药",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 12
+    },
+    {
+      "id": "bingzhengmod:gui_zhi",
+      "name": "桂枝",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 9
+    },
+    {
+      "id": "bingzhengmod:feng_mi",
+      "name": "蜂蜜",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:zhi_fu_zi",
+      "name": "制附子",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:sheng_fu_zi",
+      "process": "制",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sheng_fu_zi",
+      "name": "生附子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 0,
+      "note": "用户切片清单指定的原生药材；文档原文写作「附子」"
+    },
+    {
+      "id": "bingzhengmod:fu_ling",
+      "name": "茯苓",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 23
+    },
+    {
+      "id": "bingzhengmod:ren_shen",
+      "name": "人参",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 20
+    },
+    {
+      "id": "bingzhengmod:dang_gui",
+      "name": "当归",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 20
+    },
+    {
+      "id": "bingzhengmod:huang_qin",
+      "name": "黄芩",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 15
+    },
+    {
+      "id": "bingzhengmod:chen_pi",
+      "name": "陈皮",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 15
+    },
+    {
+      "id": "bingzhengmod:chai_hu",
+      "name": "柴胡",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 14
+    },
+    {
+      "id": "bingzhengmod:jie_geng",
+      "name": "桔梗",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 13
+    },
+    {
+      "id": "bingzhengmod:chuan_xiong",
+      "name": "川芎",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 13
+    },
+    {
+      "id": "bingzhengmod:bai_zhu",
+      "name": "白术",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 13
+    },
+    {
+      "id": "bingzhengmod:zhi_mu",
+      "name": "知母",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 12
+    },
+    {
+      "id": "bingzhengmod:ban_xia",
+      "name": "半夏",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 12
+    },
+    {
+      "id": "bingzhengmod:shu_di_huang",
+      "name": "熟地黄",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:di_huang",
+      "process": "熟",
+      "formula_count": 11
+    },
+    {
+      "id": "bingzhengmod:lian_qiao",
+      "name": "连翘",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 10
+    },
+    {
+      "id": "bingzhengmod:huang_lian",
+      "name": "黄连",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 10
+    },
+    {
+      "id": "bingzhengmod:mu_dan_pi",
+      "name": "牡丹皮",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 10
+    },
+    {
+      "id": "bingzhengmod:fang_feng",
+      "name": "防风",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 8
+    },
+    {
+      "id": "bingzhengmod:bo_he",
+      "name": "薄荷",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 8
+    },
+    {
+      "id": "bingzhengmod:zhi_zi",
+      "name": "栀子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 8
+    },
+    {
+      "id": "bingzhengmod:shi_gao",
+      "name": "石膏",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 8
+    },
+    {
+      "id": "bingzhengmod:dai_huang",
+      "name": "大黄",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 8
+    },
+    {
+      "id": "bingzhengmod:shan_yao",
+      "name": "山药",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 8
+    },
+    {
+      "id": "bingzhengmod:hou_po",
+      "name": "厚朴",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 7
+    },
+    {
+      "id": "bingzhengmod:bai_shao",
+      "name": "白芍",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 7
+    },
+    {
+      "id": "bingzhengmod:mai_dong",
+      "name": "麦冬",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 7
+    },
+    {
+      "id": "bingzhengmod:xing_ren",
+      "name": "杏仁",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 6
+    },
+    {
+      "id": "bingzhengmod:zhu_ye",
+      "name": "竹叶",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 6
+    },
+    {
+      "id": "bingzhengmod:sheng_di_huang",
+      "name": "生地黄",
+      "is_raw": true,
+      "base_herb_id": "bingzhengmod:di_huang",
+      "process": null,
+      "formula_count": 6
+    },
+    {
+      "id": "bingzhengmod:xuan_can",
+      "name": "玄参",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 6
+    },
+    {
+      "id": "bingzhengmod:huang_qi",
+      "name": "黄芪",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 6
+    },
+    {
+      "id": "bingzhengmod:rou_gui",
+      "name": "肉桂",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 6
+    },
+    {
+      "id": "bingzhengmod:ze_xie",
+      "name": "泽泻",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 6
+    },
+    {
+      "id": "bingzhengmod:ma_huang",
+      "name": "麻黄",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 5
+    },
+    {
+      "id": "bingzhengmod:xiang_fu",
+      "name": "香附",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 5
+    },
+    {
+      "id": "bingzhengmod:zhu_sha",
+      "name": "朱砂",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 5
+    },
+    {
+      "id": "bingzhengmod:tao_ren",
+      "name": "桃仁",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 5
+    },
+    {
+      "id": "bingzhengmod:huang_bo",
+      "name": "黄柏",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 5
+    },
+    {
+      "id": "bingzhengmod:shan_zhu_yu",
+      "name": "山茱萸",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 5
+    },
+    {
+      "id": "bingzhengmod:gou_qi_zi",
+      "name": "枸杞子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 5
+    },
+    {
+      "id": "bingzhengmod:qiang_huo",
+      "name": "羌活",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:jin_yin_hua",
+      "name": "金银花",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:niu_bang_zi",
+      "name": "牛蒡子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:sang_ye",
+      "name": "桑叶",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:ju_hua",
+      "name": "菊花",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:xi_jiao",
+      "name": "犀角",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:mai_men_dong",
+      "name": "麦门冬",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:jing_mi",
+      "name": "粳米",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:ge_gen",
+      "name": "葛根",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:cang_zhu",
+      "name": "苍术",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:mu_tong",
+      "name": "木通",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:qing_pi",
+      "name": "青皮",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:zhi_shi",
+      "name": "枳实",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:mu_xiang",
+      "name": "木香",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:gan_jiang",
+      "name": "干姜",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:sheng_jiang",
+      "process": "干",
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:yi_yi_ren",
+      "name": "薏苡仁",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:bin_lang",
+      "name": "槟榔",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:wu_wei_zi",
+      "name": "五味子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:e_jiao",
+      "name": "阿胶",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:hua_shi",
+      "name": "滑石",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:bing_pian",
+      "name": "冰片",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 4
+    },
+    {
+      "id": "bingzhengmod:xi_xin",
+      "name": "细辛",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:du_huo",
+      "name": "独活",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:qian_hu",
+      "name": "前胡",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:lu_gen",
+      "name": "芦根",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:chi_shao",
+      "name": "赤芍",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:bai_zhi",
+      "name": "白芷",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:shen_qu",
+      "name": "神曲",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:tian_dong",
+      "name": "天冬",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:bei_mu",
+      "name": "贝母",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:yuan_zhi",
+      "name": "远志",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:tian_ma",
+      "name": "天麻",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:du_zhong",
+      "name": "杜仲",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:niu_xi",
+      "name": "牛膝",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:sheng_huang_qi",
+      "name": "生黄芪",
+      "is_raw": true,
+      "base_herb_id": "bingzhengmod:huang_qi",
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:niu_huang",
+      "name": "牛黄",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:she_xiang",
+      "name": "麝香",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:xiong_huang",
+      "name": "雄黄",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:sheng_ma",
+      "name": "升麻",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 3
+    },
+    {
+      "id": "bingzhengmod:fu_zi",
+      "name": "附子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:jing_jie",
+      "name": "荆芥",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:zhi_ke",
+      "name": "枳壳",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:jing_jie_sui",
+      "name": "荆芥穗",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:dan_dou_chi",
+      "name": "淡豆豉",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:su_ye",
+      "name": "苏叶",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:fu_chao_zhi_ke",
+      "name": "麸炒枳壳",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:zhi_ke",
+      "process": "麸炒",
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:shi_chang_pu",
+      "name": "石菖蒲",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:fu_shen",
+      "name": "茯神",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:gou_teng",
+      "name": "钩藤",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:da_fu_pi",
+      "name": "大腹皮",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:zhu_ru",
+      "name": "竹茹",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:suan_zao_ren",
+      "name": "酸枣仁",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:pao_fu_zi",
+      "name": "炮附子",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:fu_zi",
+      "process": "炮",
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:tian_nan_xing",
+      "name": "天南星",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:chan_tui",
+      "name": "蝉蜕",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:jiang_can",
+      "name": "僵蚕",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:tong_cao",
+      "name": "通草",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:shan_zha",
+      "name": "山楂",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:gan_sui",
+      "name": "甘遂",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:tian_hua_fen",
+      "name": "天花粉",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:hong_hua",
+      "name": "红花",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:sang_ji_sheng",
+      "name": "桑寄生",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:gan_di_huang",
+      "name": "干地黄",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:di_huang",
+      "process": "干",
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:mang_xiao",
+      "name": "芒硝",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:tu_si_zi",
+      "name": "菟丝子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:di_huang",
+      "name": "地黄",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:sheng_bai_shao",
+      "name": "生白芍",
+      "is_raw": true,
+      "base_herb_id": "bingzhengmod:bai_shao",
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:shi_hu",
+      "name": "石斛",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:hu_ma_ren",
+      "name": "胡麻仁",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:sha_shen",
+      "name": "沙参",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:ku_can",
+      "name": "苦参",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:shui_niu_jiao_nong_suo_fen",
+      "name": "水牛角浓缩粉",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:duan_shi_jue_ming",
+      "name": "煅石决明",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:shi_jue_ming",
+      "process": "煅",
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:dang_gui_wei",
+      "name": "当归尾",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:zhen_zhu",
+      "name": "珍珠",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:yu_jin",
+      "name": "郁金",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:peng_sha",
+      "name": "硼砂",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:an_xi_xiang",
+      "name": "安息香",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:chang_shan",
+      "name": "常山",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:cao_guo_ren",
+      "name": "草果仁",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:qing_hao",
+      "name": "青蒿",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:bie_jia",
+      "name": "鳖甲",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:dan_pi",
+      "name": "丹皮",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:ma_bo",
+      "name": "马勃",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 2
+    },
+    {
+      "id": "bingzhengmod:sheng_shi_gao",
+      "name": "生石膏",
+      "is_raw": true,
+      "base_herb_id": "bingzhengmod:shi_gao",
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:cong_bai",
+      "name": "葱白",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:xiang_ru",
+      "name": "香薷",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:xian_bian_dou_hua",
+      "name": "鲜扁豆花",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:cu_chen_pi",
+      "name": "醋陈皮",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:chen_pi",
+      "process": "醋",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:wei_jiang",
+      "name": "煨姜",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:sheng_jiang",
+      "process": "煨",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:dan_nan_xing",
+      "name": "胆南星",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ju_hong",
+      "name": "橘红",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:dan_shen",
+      "name": "丹参",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sheng_tie_luo",
+      "name": "生铁落",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:long_gu",
+      "name": "龙骨",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:qian_dan",
+      "name": "铅丹",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:mu_li",
+      "name": "牡蛎",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sang_bai_pi",
+      "name": "桑白皮",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:su_zi",
+      "name": "苏子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:xiao_mai",
+      "name": "小麦",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:long_yan_rou",
+      "name": "龙眼肉",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:bai_fu_zi",
+      "name": "白附子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:quan_xie",
+      "name": "全蝎",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:wu_mei",
+      "name": "乌梅",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:lai_fu_zi",
+      "name": "莱菔子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zi_da_ji",
+      "name": "紫大戟",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:bai_jie_zi",
+      "name": "白芥子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zhi_chuan_wu",
+      "name": "制川乌",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:chuan_wu",
+      "process": "制",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:pao_chuan_shan_jia",
+      "name": "炮穿山甲",
+      "is_raw": false,
+      "base_herb_id": null,
+      "process": "炮",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:jiu_da_huang",
+      "name": "酒大黄",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:dai_huang",
+      "process": "酒",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:qin_jiao",
+      "name": "秦艽",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:liu_shen_qu",
+      "name": "六神曲",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:chao_mai_ya",
+      "name": "炒麦芽",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:sheng_mai_ya",
+      "process": "炒",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:san_leng",
+      "name": "三棱",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:e_shu",
+      "name": "莪术",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:qian_niu",
+      "name": "牵牛",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:huo_xiang",
+      "name": "藿香",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zi_su",
+      "name": "紫苏",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ban_xia_qu",
+      "name": "半夏曲",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:bai_bian_dou",
+      "name": "白扁豆",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:lian_zi",
+      "name": "莲子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sha_ren",
+      "name": "砂仁",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:rou_gui_xin",
+      "name": "肉桂心",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:xian_shan_zha",
+      "name": "鲜山楂",
+      "is_raw": true,
+      "base_herb_id": "bingzhengmod:shan_zha",
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:mi_hou_tao",
+      "name": "猕猴桃",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:tian_jiang_guo",
+      "name": "甜浆果",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sheng_gan_cao_shao",
+      "name": "生甘草梢",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:hei_qian_niu",
+      "name": "黑牵牛",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:yuan_hua",
+      "name": "芫花",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:da_ji",
+      "name": "大戟",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:qing_fen",
+      "name": "轻粉",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zi_su_zi",
+      "name": "紫苏子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:lu_jiao_jiao",
+      "name": "鹿角胶",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:lu_jiao",
+      "name": "鹿角",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:gui_ban",
+      "name": "龟板",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:wu_zhu_yu",
+      "name": "吴茱萸",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ai_ye_tan",
+      "name": "艾叶炭",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:cu_xiang_fu",
+      "name": "醋香附",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:xiang_fu",
+      "process": "醋",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zhi_wu_zhu_yu",
+      "name": "制吴茱萸",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:wu_zhu_yu",
+      "process": "制",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:jiu_bai_shao",
+      "name": "酒白芍",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:bai_shao",
+      "process": "酒",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zhi_huang_qi",
+      "name": "炙黄芪",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:huang_qi",
+      "process": "炙",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:xu_duan",
+      "name": "续断",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:lian_mi",
+      "name": "炼蜜",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:chao_bai_zhu",
+      "name": "炒白术",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:bai_zhu",
+      "process": "炒",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:duan_long_gu",
+      "name": "煅龙骨",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:long_gu",
+      "process": "煅",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:duan_mu_li",
+      "name": "煅牡蛎",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:mu_li",
+      "process": "煅",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:hai_piao_shao",
+      "name": "海螵蛸",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:qian_cao",
+      "name": "茜草",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zong_bian_tan",
+      "name": "棕边炭",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:wu_bei_zi",
+      "name": "五倍子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:xian_mao",
+      "name": "仙茅",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:yin_yang_huo",
+      "name": "淫羊藿",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ba_ji_tian",
+      "name": "巴戟天",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:xi_yang_shen",
+      "name": "西洋参",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:he_geng",
+      "name": "荷梗",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:xi_gua_cui_yi",
+      "name": "西瓜翠衣",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:pi_pa_ye",
+      "name": "枇杷叶",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:xiang_bei",
+      "name": "象贝",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:xiang_chi",
+      "name": "香豉",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zhi_pi",
+      "name": "栀皮",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:li_pi",
+      "name": "梨皮",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zi_cao",
+      "name": "紫草",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:bi_xie",
+      "name": "萆薢",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:chi_fu_ling",
+      "name": "赤茯苓",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:wei_jing",
+      "name": "苇茎",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:dong_gua_ren",
+      "name": "冬瓜仁",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:rou_cong_rong",
+      "name": "肉苁蓉",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ku_xing_ren",
+      "name": "苦杏仁",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:yan_ji_li",
+      "name": "盐蒺藜",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:ji_li",
+      "process": "盐",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:qing_xiang_zi",
+      "name": "青葙子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:jue_ming_zi",
+      "name": "决明子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ling_yang_jiao",
+      "name": "羚羊角",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:jiu_yu_rou",
+      "name": "酒萸肉",
+      "is_raw": false,
+      "base_herb_id": null,
+      "process": "酒",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ji_li",
+      "name": "蒺藜",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:huang_lian_yang_gan_wan",
+      "name": "黄连羊肝丸",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:hu_huang_lian",
+      "name": "胡黄连",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:long_dan",
+      "name": "龙胆",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:cu_qing_pi",
+      "name": "醋青皮",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:qing_pi",
+      "process": "醋",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:mu_zei",
+      "name": "木贼",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:mi_meng_hua",
+      "name": "密蒙花",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:chong_wei_zi",
+      "name": "茺蔚子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:chao_jue_ming_zi",
+      "name": "炒决明子",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:jue_ming_zi",
+      "process": "炒",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ye_ming_sha",
+      "name": "夜明砂",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:xian_yang_gan",
+      "name": "鲜羊肝",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:shi_jue_ming",
+      "name": "石决明",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:chuan_niu_xi",
+      "name": "川牛膝",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:yi_mu_cao",
+      "name": "益母草",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ye_jiao_teng",
+      "name": "夜交藤",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zhu_fu_shen",
+      "name": "朱茯神",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:huai_niu_xi",
+      "name": "怀牛膝",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sheng_zhe_shi",
+      "name": "生赭石",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sheng_long_gu",
+      "name": "生龙骨",
+      "is_raw": true,
+      "base_herb_id": "bingzhengmod:long_gu",
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sheng_mu_li",
+      "name": "生牡蛎",
+      "is_raw": true,
+      "base_herb_id": "bingzhengmod:mu_li",
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sheng_gui_ban",
+      "name": "生龟板",
+      "is_raw": true,
+      "base_herb_id": "bingzhengmod:gui_ban",
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:chuan_lian_zi",
+      "name": "川楝子",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sheng_mai_ya",
+      "name": "生麦芽",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:yin_chen",
+      "name": "茵陈",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sheng_shan_yao",
+      "name": "生山药",
+      "is_raw": true,
+      "base_herb_id": "bingzhengmod:shan_yao",
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sheng_ji_nei_jin",
+      "name": "生鸡内金",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:di_long",
+      "name": "地龙",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:jin_bo_yi",
+      "name": "金箔衣",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:xiao_shi",
+      "name": "硝石",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:fei_jin",
+      "name": "飞金",
+      "is_raw": false,
+      "base_herb_id": null,
+      "process": "飞",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:tu_bie_chong",
+      "name": "土鳖虫",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ru_xiang",
+      "name": "乳香",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:mo_yao",
+      "name": "没药",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zi_ran_tong",
+      "name": "自然铜",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:gu_sui_bu",
+      "name": "骨碎补",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:xue_jie",
+      "name": "血竭",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:chuan_wu",
+      "name": "川乌",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:su_he_xiang",
+      "name": "苏合香",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ren_gong_she_xiang",
+      "name": "人工麝香",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:tan_xiang",
+      "name": "檀香",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:chen_xiang",
+      "name": "沉香",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ding_xiang",
+      "name": "丁香",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zhi_ru_xiang",
+      "name": "制乳香",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:ru_xiang",
+      "process": "制",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:bi_ba",
+      "name": "荜茇",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:he_zi_rou",
+      "name": "诃子肉",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sheng_xi_jiao",
+      "name": "生犀角",
+      "is_raw": true,
+      "base_herb_id": "bingzhengmod:xi_jiao",
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sheng_dai_mao",
+      "name": "生玳瑁",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:hu_po",
+      "name": "琥珀",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:jin_bo",
+      "name": "金箔",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:yin_bo",
+      "name": "银箔",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:chao_zhi_zi",
+      "name": "炒栀子",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:zhi_zi",
+      "process": "炒",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:xian_zhu_ye",
+      "name": "鲜竹叶",
+      "is_raw": true,
+      "base_herb_id": "bingzhengmod:zhu_ye",
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:deng_xin",
+      "name": "灯心",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:dan_zhu_li",
+      "name": "淡竹沥",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:yu_shu_dan",
+      "name": "玉枢丹",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zuo_ji_jiu_da_fang",
+      "name": "作急救大方",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:yi_yuan_san",
+      "name": "益元散",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sheng_di",
+      "name": "生地",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:he_shou_wu",
+      "name": "何首乌",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:wei_sheng_jiang",
+      "name": "煨生姜",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:sheng_jiang",
+      "process": "煨",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ye_gan",
+      "name": "射干",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:shu_fu",
+      "name": "鼠妇",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ting_li",
+      "name": "葶苈",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:shi_wei",
+      "name": "石韦",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:mu_dan",
+      "name": "牡丹",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:qu_mai",
+      "name": "瞿麦",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zi_wei",
+      "name": "紫葳",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zhe_chong",
+      "name": "蟅虫",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:feng_chao",
+      "name": "蜂巢",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:chi_xiao",
+      "name": "赤硝",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:qiang_lang",
+      "name": "蜣螂",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:chao_dou_chi",
+      "name": "炒豆豉",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:dou_chi",
+      "process": "炒",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:jiao_zhi_zi",
+      "name": "焦栀子",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:zhi_zi",
+      "process": "焦",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:jiu_huang_qin",
+      "name": "酒黄芩",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:huang_qin",
+      "process": "酒",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:pei_lan",
+      "name": "佩兰",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zhi_hou_po",
+      "name": "制厚朴",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:hou_po",
+      "process": "制",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zhi_ban_xia",
+      "name": "制半夏",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:ban_xia",
+      "process": "制",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:bai_kou_ren",
+      "name": "白蔻仁",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:dou_chi",
+      "name": "豆豉",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:chan_yi",
+      "name": "蝉衣",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:bai_jiang_can",
+      "name": "白僵蚕",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:deng_xin_2",
+      "name": "灯芯",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:da_sheng_di",
+      "name": "大生地",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:chao_bai_shao",
+      "name": "炒白芍",
+      "is_raw": false,
+      "base_herb_id": "bingzhengmod:bai_shao",
+      "process": "炒",
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:sheng_gan_cao",
+      "name": "生甘草",
+      "is_raw": true,
+      "base_herb_id": "bingzhengmod:gan_cao",
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:bai_he",
+      "name": "百合",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:tian_men_dong",
+      "name": "天门冬",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:bai_bu",
+      "name": "百部",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:chuan_bei_mu",
+      "name": "川贝母",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ta_gan",
+      "name": "獭肝",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:san_qi",
+      "name": "三七",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:bai_ju_hua",
+      "name": "白菊花",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:da_ji_2",
+      "name": "大蓟",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:xiao_ji",
+      "name": "小蓟",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:he_ye",
+      "name": "荷叶",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ce_bai_ye",
+      "name": "侧柏叶",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:bai_mao_gen",
+      "name": "白茅根",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:qian_cao_gen",
+      "name": "茜草根",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:zong_lv_pi",
+      "name": "棕榈皮",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    },
+    {
+      "id": "bingzhengmod:ban_lan_gen",
+      "name": "板蓝根",
+      "is_raw": true,
+      "base_herb_id": null,
+      "process": null,
+      "formula_count": 1
+    }
+  ]
+}

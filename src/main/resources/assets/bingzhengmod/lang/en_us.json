@@ -1,0 +1,23 @@
+{
+  "itemGroup.bingzhengmod.herbs": "Bingzheng · Herbs",
+  "item.bingzhengmod.gui_zhi": "Cassia Twig",
+  "item.bingzhengmod.shao_yao": "Peony Root",
+  "item.bingzhengmod.sheng_jiang": "Fresh Ginger",
+  "item.bingzhengmod.da_zao": "Jujube",
+  "item.bingzhengmod.gan_cao": "Licorice Root",
+  "item.bingzhengmod.feng_mi": "Honey",
+  "item.bingzhengmod.sheng_fu_zi": "Raw Aconite (Toxic)",
+  "item.bingzhengmod.zhi_gan_cao": "Honey-fried Licorice",
+  "item.bingzhengmod.zhi_fu_zi": "Prepared Aconite",
+  "item.bingzhengmod.gui_zhi_tang": "Guizhi Decoction",
+  "effect.bingzhengmod.xinmai_bizu": "Heart-Vessel Obstruction",
+  "effect.bingzhengmod.harmonize_exterior": "Exterior Harmonized",
+  "message.bingzhengmod.toxic_herb_used": "Raw \"%s\" taken — its toxin strikes the heart vessels!",
+  "message.bingzhengmod.decoction_drunk": "You drink \"%s\"; the exterior grows harmonious.",
+  "block.bingzhengmod.xiuhe_table": "Compounding Bench",
+  "container.bingzhengmod.xiuhe_table": "Compounding Bench",
+  "command.bingzhengmod.yingwei.query": "Ying-Wei: %s / %s",
+  "command.bingzhengmod.yingwei.set": "Ying-Wei set to %s",
+  "message.bingzhengmod.yingwei_value": "Ying-Wei %s / %s",
+  "message.bingzhengmod.herb_used_plain": "You taste \"%s\". Nothing untoward."
+}

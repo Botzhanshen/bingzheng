@@ -1,0 +1,23 @@
+{
+  "itemGroup.bingzhengmod.herbs": "病证·药材",
+  "item.bingzhengmod.gui_zhi": "桂枝",
+  "item.bingzhengmod.shao_yao": "芍药",
+  "item.bingzhengmod.sheng_jiang": "生姜",
+  "item.bingzhengmod.da_zao": "大枣",
+  "item.bingzhengmod.gan_cao": "甘草",
+  "item.bingzhengmod.feng_mi": "蜂蜜",
+  "item.bingzhengmod.sheng_fu_zi": "生附子",
+  "item.bingzhengmod.zhi_gan_cao": "炙甘草",
+  "item.bingzhengmod.zhi_fu_zi": "制附子",
+  "item.bingzhengmod.gui_zhi_tang": "桂枝汤",
+  "effect.bingzhengmod.xinmai_bizu": "心脉痹阻",
+  "effect.bingzhengmod.harmonize_exterior": "表气调和",
+  "message.bingzhengmod.toxic_herb_used": "生用「%s」，毒性直入——心脉痹阻！",
+  "message.bingzhengmod.decoction_drunk": "服下「%s」，表气渐和。",
+  "block.bingzhengmod.xiuhe_table": "修合台",
+  "container.bingzhengmod.xiuhe_table": "修合台",
+  "command.bingzhengmod.yingwei.query": "营卫值：%s / %s",
+  "command.bingzhengmod.yingwei.set": "营卫值已设为 %s",
+  "message.bingzhengmod.yingwei_value": "营卫 %s / %s",
+  "message.bingzhengmod.herb_used_plain": "服下「%s」，气味平和，未觉异样。"
+}
