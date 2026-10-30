@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.bingzheng.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "_comment": "defaultRequire=0（v0.4.1 决策）：一旦发生字节码冲突（例如别的模组也 @Redirect 了 MilkBucketItem 里同一句 clearStatusEffects 调用），本过滤层【静默失效】并输出一条 warn 日志，游戏继续正常运行 —— 绝不因为牛奶过滤让整合包起不来。失效只影响「饮用牛奶」这一条路径：五脏气血 / 七情神耗体耗 / 营卫全部存放在 Fabric Attachment 里，永远不受牛奶影响，病根不会因为过滤层失效而丢。",
+  "mixins": [
+    "MilkBucketItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

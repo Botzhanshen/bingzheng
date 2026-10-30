@@ -42,3 +42,14 @@ run/
 .gradle-home/
 .tools/
 .docx_extract/
+
+### 本机运行日志与启动器文件（不入库）###
+*.log
+PCL 启动器日志.txt
+游戏崩溃前的输出.txt
+crash-*.txt
+启动脚本.bat
+*.docx
+
+### 开源源材料草稿（README 等已放到仓库根）###
+open-source/
